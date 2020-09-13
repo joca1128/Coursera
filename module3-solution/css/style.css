@@ -11,9 +11,14 @@ h1, p,span{
     font-family: 'Comic Neue', cursive;
 }
 
+hr{
+    margin: 6px;
+}
+
 p,span{
     font-size: 150%;
 }
+
 
 #collapsable-list li:hover{
     background-color: gainsboro;
@@ -21,6 +26,6 @@ p,span{
 
 #section1{
     height: 1000px;
-    margin: 25px auto 25px;
+    margin: 0px auto 25px;
     background-color: gainsboro;
 }
