@@ -1,0 +1,26 @@
+#logo{
+    margin-right: 5px;
+    font-size: 150%;
+}
+
+h1{
+    margin: 25px;
+}
+
+h1, p,span{
+    font-family: 'Comic Neue', cursive;
+}
+
+p,span{
+    font-size: 150%;
+}
+
+#collapsable-list li:hover{
+    background-color: gainsboro;
+}
+
+#section1{
+    height: 1000px;
+    margin: 25px auto 25px;
+    background-color: gainsboro;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <title>Assignment Solution for Module 3</title>
+    </head>
+    <body>
+        <!--Inicio del header-->
+        <header>
+            <!--Inicio de la barra de navegación-->
+            <nav class="navbar navbar-default">
+                <div class="container" id="header-container">
+
+                    <!--Elementos pertenecientes al header sin la lista-->
+                    <div class="navbar-header">
+                        <!--logo de la página-->
+                        <a id="logo" href="index.html" class="navbar-brand navbar-right">
+                            <p>Food, LLC</p>
+                        </a>
+                        <!--fin del logo de la página-->
+
+                        <!--Inicio del toogle para sm screens-->
+                        <button type="button" class="navbar-toggle collapsed visble-xs" data-toggle="collapse" data-target="#collapsable-list" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!--Fin del toogle para sm screens-->
+                    </div>
+
+                    <!--Inicio de grupo de enlaces para el toggle-->
+                    <div id= "collapsable-list" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav visible-xs">
+                            <li class="text-center"><a href="#">Chicken</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="text-center"><a href="#">Beef</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="text-center"><a href="#">Sushi</a></li>
+                        </ul>
+                    </div>
+                    <!--Fin de grupo de enlaces para el toggle-->
+                </div>
+            </nav>
+            <!--Fin de la barra de navegación-->            
+        </header>
+        <!--Fin del header-->
+
+        <!--titulo-->
+        <h1 class="text-center">Our Menu</h1>
+
+        <!--Comienzo de la sección-->
+        <div class="container-fluid">
+            <section id="section1" class="row">
+                    <div id="nota" class="col-xs-12">
+                        <p id="section-title" class="text-center">Chicken</p>
+                        <p>Chicken is the most common type of poultry in the world. Owing to the relative ease and low cost of raising them in comparison to animals such as cattle or hogs, chickens have become prevalent throughout the cuisine of cultures around the world, and their meat has been variously adapted to regional tastes.
+
+                            Chicken can be prepared in a vast range of ways, including baking, grilling, barbecuing, frying, and boiling, among many others, depending on its purpose. Since the latter half of the 20th century, prepared chicken has become a staple of fast food. Chicken is sometimes cited as being more healthful than red meat, with lower concentrations of cholesterol and saturated fat.
+                            
+                            The poultry farming industry that accounts for chicken production takes on a range of forms across different parts of the world. In developed countries, chickens are typically subject to intensive farming methods, while less-developed areas raise chickens using more traditional farming techniques. The United Nations estimates there to be 19 billion chickens on Earth today, making them outnumber humans more than two to one.</p>
+                    </div>
+            </section>
+        </div>
+        <!--Fin de la sección-->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
